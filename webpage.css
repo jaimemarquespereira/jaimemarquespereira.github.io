@@ -1,0 +1,35 @@
+/* -----------------------------------------------------------------------------
+/* general guidelines
+/* -----------------------------------------------------------------------------
+
+/* body */
+body {font-family: 'Work Sans', sans-sans-serif; font-color: black;  font-size: 16px;}
+/* href text */
+a {text-decoration: none; color: black;}
+/* href hover */
+a:hover {text-decoration: none; color: #800000;}
+/* footer */
+footer {font-color: black; font-size: 12px;}
+
+/* -----------------------------------------------------------------------------
+/* index.html guidelines
+/* -----------------------------------------------------------------------------
+
+/* text wrapper */
+#index-wrapper{width: 1200px; margin: 250 auto;}
+/* image */
+img {display: inline-block; margin: -22.5px 100px 0px 0px}
+
+/* -----------------------------------------------------------------------------
+/* research.html guidelines
+/* -----------------------------------------------------------------------------
+
+/* text wrapper */
+#research-wrapper{width: 1200px; margin: 125 auto;}
+
+/* -----------------------------------------------------------------------------
+/* teaching.html guidelines
+/* -----------------------------------------------------------------------------
+
+/* text wrapper */
+#teaching-wrapper{width: 1200px; margin: 125 auto;}
