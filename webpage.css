@@ -16,7 +16,7 @@ footer {font-color: black; font-size: 12px;}
 /* -----------------------------------------------------------------------------
 
 /* text wrapper */
-#index-wrapper{width: 1200px; margin: 250 auto;}
+#index-wrapper{width: 1200px; margin: 20vw auto;}
 /* image */
 img {display: inline-block; margin: -22.5px 100px 0px 0px}
 
@@ -25,11 +25,11 @@ img {display: inline-block; margin: -22.5px 100px 0px 0px}
 /* -----------------------------------------------------------------------------
 
 /* text wrapper */
-#research-wrapper{width: 1200px; margin: 125 auto;}
+#research-wrapper{width: 1200px; margin: 12.5vw auto;}
 
 /* -----------------------------------------------------------------------------
 /* teaching.html guidelines
 /* -----------------------------------------------------------------------------
 
 /* text wrapper */
-#teaching-wrapper{width: 1200px; margin: 125 auto;}
+#teaching-wrapper{width: 1200px; margin: 12.5vw auto;}
