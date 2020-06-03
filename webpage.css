@@ -3,7 +3,7 @@
 /* -----------------------------------------------------------------------------
 
 /* body */
-body {font-family: 'Work Sans', sans-sans-serif; font-color: black;  font-size: 16px;}
+body {font-family: 'Work Sans', sans-sans-serif; font-color: black;  font-size: 16px; text-align: justify;}
 /* href text */
 a {text-decoration: none; color: black;}
 /* href hover */
@@ -16,7 +16,7 @@ footer {font-color: black; font-size: 12px;}
 /* -----------------------------------------------------------------------------
 
 /* text wrapper */
-#index-wrapper{width: 1200px; margin: 15vw auto;}
+#index-wrapper{width: 775px; margin: 15vw auto}
 /* image */
 img {display: inline-block; margin: -22.5px 100px 0px 0px}
 
@@ -25,11 +25,11 @@ img {display: inline-block; margin: -22.5px 100px 0px 0px}
 /* -----------------------------------------------------------------------------
 
 /* text wrapper */
-#research-wrapper{width: 1200px; margin: 10vw auto;}
+#research-wrapper{width: 500px; margin: 7.5vw auto;}
 
 /* -----------------------------------------------------------------------------
 /* teaching.html guidelines
 /* -----------------------------------------------------------------------------
 
 /* text wrapper */
-#teaching-wrapper{width: 1200px; margin: 10vw auto;}
+#teaching-wrapper{width: 500px; margin: 7.5vw auto;}
