@@ -1,0 +1,81 @@
+/* Laptop, Desktop and Tablet Styles */
+@media only screen and (min-width: 1001px) {
+
+  /* -----------------------------------------------------------------------------
+  /* general guidelines
+  /* -----------------------------------------------------------------------------
+
+  /* body */
+  body {font-family: 'Work Sans', sans-sans-serif; font-color: black;  font-size: 16px; text-align: justify;}
+  /* href text */
+  a {text-decoration: none; color: black;}
+  /* href hover */
+  a:hover {text-decoration: none; color: #800000;}
+  /* footer */
+  footer {font-color: black; font-size: 12px;}
+
+  /* -----------------------------------------------------------------------------
+  /* index.html guidelines
+  /* -----------------------------------------------------------------------------
+
+  /* text wrapper */
+  #index-wrapper{width: 950px; margin: 6.25vw 37.5vh auto}
+  /* image */
+  img {display: inline-block; margin: -17.5px 100px 0px 0px}
+
+  /* -----------------------------------------------------------------------------
+  /* research.html guidelines
+  /* -----------------------------------------------------------------------------
+
+  /* text wrapper */
+  #research-wrapper{width: 525px; margin: 7.5vw auto;}
+
+  /* -----------------------------------------------------------------------------
+  /* teaching.html guidelines
+  /* -----------------------------------------------------------------------------
+
+  /* text wrapper */
+  #teaching-wrapper{width: 525px; margin: 7.5vw auto;}
+
+}
+
+/* Mobile Styles */
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+
+  /* -----------------------------------------------------------------------------
+  /* general guidelines
+  /* -----------------------------------------------------------------------------
+
+  /* body */
+  body {font-family: 'Work Sans', sans-sans-serif; font-color: black;  font-size: 24px; text-align: justify;}
+  /* href text */
+  a {text-decoration: none; color: black;}
+  /* href hover */
+  a:hover {text-decoration: none; color: #800000;}
+  /* footer */
+  footer {font-color: black; font-size: 10px;}/* Laptop, Desktop and Tablet Styles */
+
+  /* -----------------------------------------------------------------------------
+  /* index.html guidelines
+  /* -----------------------------------------------------------------------------
+
+  /* text wrapper */
+  #index-wrapper{width: 600px; margin: 18vw 10.75vh auto;}
+  /* image */
+  img {display: inline-block; margin: -30.5px 100px 75px 87.5px}
+
+  /* -----------------------------------------------------------------------------
+  /* research.html guidelines
+  /* -----------------------------------------------------------------------------
+
+  /* text wrapper */
+  #research-wrapper{width: 600px; margin: 18vw 10.75vh auto;}
+
+  /* -----------------------------------------------------------------------------
+  /* teaching.html guidelines
+  /* -----------------------------------------------------------------------------
+
+  /* text wrapper */
+  #teaching-wrapper{width: 600px; margin: 18vw 10.75vh auto;}
+
+}
