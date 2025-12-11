@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jaime Marques-Pereira / Research</title>
+
+    <link rel="stylesheet" href="./webpage.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap">
+
+    <script>
+        function toggleAbstract(id) {
+            const content = document.getElementById(id);
+            const arrow = document.getElementById("arrow-" + id);
+            content.classList.toggle("open");
+            arrow.textContent = content.classList.contains("open") ? "▲" : "▼";
+        }
+    </script>
+</head>
+
+<body>
+
+<div class="single-column">
+
+    <h1><span class="name-block">Jaime</span> <span class="name-block">Marques-Pereira</span></h1>
+
+    <div class="top-links">
+        <a href="https://jaimemarquespereira.github.io">About</a> /
+        <a href="https://jaimemarquespereira.github.io/teaching">Teaching</a>
+    </div>
+
+    <!-- =====================================================
+         WORKING PAPERS
+         ===================================================== -->
+
+    <h2 class="section-title">Working Papers</h2>
+
+    <!-- PAPER 1 -->
+    <h4 class="paper-title">
+        Media Cross-Amplification and Public Opinion: <br> Evidence from Television Coverage of Social Media
+    </h4>
+
+    <div class="coauthors">Submitted</div>
+
+    <div class="paper-controls">
+        <a class="draft-label"
+           href="https://jaimemarquespereira.github.io/papers/jmp_jaime_marques_pereira.pdf"
+           target="_blank">[draft]</a>
+
+        <span class="separator">/</span>
+
+        <span class="abstract-toggle" onclick="toggleAbstract('abs1')">
+            Abstract <span class="abstract-arrow" id="arrow-abs1">▼</span>
+        </span>
+    </div>
+
+    <div class="abstract-content" id="abs1">
+        <p>
+            I study how social media messages are amplified by television news and how this amplification shapes public opinion. Using high-frequency data on President Trump's tweets and cable transcripts, I show that Trump's tweets caused near-immediate shifts in cable coverage, providing causal evidence of agenda-setting power. Linking text-on-screen data to a large public opinion survey, I find that broadcasts of Trump's tweets causally shifted viewers' approval of Trump and their 2020 voting intentions, widening gaps across TV audiences. Additional evidence shows that this mechanism is not specific to Trump, with cable news actively amplifying online statements by other prominent U.S. politicians.
+        </p>
+    </div>
+
+
+    <!-- PAPER 2 -->
+    <h4 class="paper-title">
+        Strategic Drones
+    </h4>
+
+    <div class="coauthors"></div>
+
+    <div class="coauthors">
+        with Marco Alfano, Margaux Clarr and Jean-François Maystadt
+    </div>
+
+    <div class="paper-controls">
+        <a class="draft-label"
+           href="https://www.rfberlin.com/network-paper/strategic-drones/"
+           target="_blank">[working paper]</a>
+
+        <span class="separator">/</span>
+
+        <span class="abstract-toggle" onclick="toggleAbstract('abs2')">
+            Abstract <span class="abstract-arrow" id="arrow-abs2">▼</span>
+        </span>
+    </div>
+
+    <div class="abstract-content" id="abs2">
+        <p>
+            U.S. drone strikes are electorally popular and authorized by the President. We test whether drone strike activity is shifted for political gain around U.S. federal elections. Using data on drone strikes in Afghanistan, Pakistan, Somalia, and Yemen, we document a pronounced pre-election increase in strike incidence. To separate political timing from military necessity, we exploit country-level cloud cover as plausibly exogenous variation in strike feasibility and study how strikes are reallocated across war theaters during electoral and non-electoral periods. Consistent with strategic behavior, cloud cover in one country induces more strikes in other clear-sky countries -- but only during elections. Finally, using a comprehensive corpus of cable-TV closed captions, we show that drone strikes are more likely in weeks when presidential coverage is negative, suggesting that drones may also serve as a diversionary tool. This relationship vanishes when news pressure is high, consistent with drones being used as a diversion only when there is scope for coverage.
+        </p>
+    </div>
+
+
+    <!-- =====================================================
+         WORK IN PROGRESS
+         ===================================================== -->
+
+    <h2 class="section-title">Work in Progress</h2>
+
+    
+
+    <!-- WIP 1 -->
+    <h4 class="paper-title">
+        Was It How I Said It? Emotions in Speech and Polarization
+    </h4>
+
+    <div class="coauthors"></div>
+
+    <div class="coauthors">
+        with Elliott Ash and Philine Widmer
+    </div>
+
+    <div class="paper-controls">
+        <span class="draft-label no-link">[draft in progress]</span>
+        <span class="separator">/</span>
+        <span class="abstract-toggle" onclick="toggleAbstract('abs3')">
+            Summary <span class="abstract-arrow" id="arrow-abs3">▼</span>
+        </span>
+    </div>
+
+    <div class="abstract-content" id="abs3">
+        <p>
+            This project studies how the emotional tone of televised political speech shapes polarization. Using a novel dataset of U.S. cable news audio spanning fifteen years, we quantify emotional expression in speech using transformer-based models. We document substantial changes in the emotional composition of primetime coverage over time. We complement this analysis with a survey experiment, in which participants are exposed to political statements delivered with different emotional tones, to assess how emotional delivery affects partisan attitudes and engagement.
+        </p>
+    </div>
+
+
+    <!-- WIP 2
+    <h4 class="paper-title">
+        Joe Rogan Podcast “By Night”: Public Health and the Dimming Effect of Influence
+    </h4>
+
+    <div class="coauthors"></div>
+
+    <div class="coauthors">
+        with Juan Morales
+    </div>
+
+    <div class="paper-controls">
+        <span class="draft-label no-link">[draft in progress]</span>
+        <span class="separator">/</span>
+        <span class="abstract-toggle" onclick="toggleAbstract('abs4')">
+            Summary <span class="abstract-arrow" id="arrow-abs4">▼</span>
+        </span>
+    </div>
+
+    <div class="coauthors"></div>
+
+    <div class="abstract-content" id="abs4">
+        <p>
+            This project examines how alternative media shapes public attention and health behavior, focusing on The Joe Rogan Experience podcast. Using high-frequency Google Trends data, we document sharp and persistent increases in attention to guests following their appearances. We combine these dynamics with a measure of local podcast exposure to study vaccine-related responses, showing that counties with higher exposure exhibit more pronounced declines in COVID-19 vaccination rates after episodes conveying vaccine-skeptical messages.
+        </p>
+    </div> -->
+
+
+    <!-- WIP 3 -->
+    <h4 class="paper-title">
+        What Do We Lose When Women Do Not Code? <br> Evidence from the Universe of Contributions in FOSS
+    </h4>
+
+    <div class="coauthors">
+        with Annalí Casanueva Artís, Davide Rossi, Stefano Zacchiroli and Théo Zimmermann
+    </div>
+
+    <div class="paper-controls">
+        <span class="draft-label no-link">[draft in progress]</span>
+        <span class="separator">/</span>
+        <span class="abstract-toggle" onclick="toggleAbstract('abs5')">
+            Summary <span class="abstract-arrow" id="arrow-abs5">▼</span>
+        </span>
+    </div>
+
+    <div class="abstract-content" id="abs5">
+        <p>
+            This project studies gender disparities in Free and Open Source Software (FOSS) using the universe of public contributions archived by Software Heritage. We document large gender gaps in participation, contribution types, and visibility across tens of millions of developer activities. We investigate how institutional and family-related constraints contribute to these gaps, exploiting variation in school closures and parental leave policies across countries to show that child-related responsibilities significantly reduce women's participation and widen gender disparities in software collaboration.
+        </p>
+    </div>
+
+
+    <!-- =====================================================
+         POLICY PUBLICATIONS
+         ===================================================== -->
+
+    <h2 class="section-title">Policy Publications</h2>
+
+    <h4 class="paper-title">
+        Social Media and Traditional Media
+    </h4>
+
+    <p>EconPol Forum, 26 (4), 07-11, CESifo Munich (2025) / <a class="draft-label"
+           href="https://www.ifo.de/en/econpol/publications/2025/article-journal/social-media-and-traditional-media"
+           target="_blank">[link]</a></p>
+
+
+    <!-- =====================================================
+         PRE-DOCTORAL PAPERS
+         ===================================================== -->
+
+    <h2 class="section-title">Pre-Doctoral Papers</h2>
+
+    <h4 class="paper-title">
+        The War Next Door and the Reds are Coming: <br> The Spanish Civil War and the Portuguese Stock Market
+    </h4>
+
+    <div class="coauthors with-link">
+        with Diogo Leitão, João Pereira dos Santos and José Tavares
+        <span class="separator">/</span>
+        <a class="draft-label"
+        href="https://cepr.org/publications/dp13990"
+        target="_blank">[working paper]</a>
+    </div>
+
+    <h4 class="paper-title">
+        Republicans, Democrats and Budget Deficits: <br> Fiscal Dynamics in Political Perspective
+    </h4>
+
+    <div class="coauthors with-link">
+        with José Tavares
+        <span class="separator">/</span>
+        <a class="draft-label"
+        href="https://cepr.org/publications/dp11654"
+        target="_blank">[working paper]</a>
+    </div>
+
+</div>
+
+</body>
+</html>

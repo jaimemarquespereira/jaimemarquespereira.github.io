@@ -1,0 +1,340 @@
+/* ============================================
+   GLOBAL
+   ============================================ */
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+    font-size: 16px;
+    line-height: 1.55;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    text-align: justify;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    font-weight: 700;
+}
+
+p a {
+    text-decoration: underline;
+}
+
+.footer-link {
+    text-decoration: underline;
+}
+
+.name-block {
+    white-space: nowrap;
+}
+
+/* ============================================
+   NAVIGATION (Twitter / Github, Research, Teaching)
+   ============================================ */
+
+.nav-links-dark a,
+.top-links a {
+    color: black;
+    font-weight: 500;
+    font-size: 20px; 
+}
+
+.nav-links-dark a:hover,
+.top-links a:hover {
+    color: black;
+    font-weight: 700;
+}
+
+
+/* ============================================
+   INDEX PAGE — REDUCE VERTICAL SPACING
+   ============================================ */
+
+.index h1 {
+    margin-bottom: 4px;
+}
+
+.index .top-links {
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.index .nav-links {
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+.index .tight {
+    margin-bottom: 4px;
+}
+
+
+/* ============================================
+   INDEX PAGE LAYOUT
+   ============================================ */
+
+.page-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-centered {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-column {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.left-col {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-col {
+    flex: 0 0 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: -25px; 
+}
+
+.profile-photo {
+    width: 425px;
+    height: auto;
+}
+
+.tight { margin-top: 0; margin-bottom: 8px; }
+
+.footer-desktop {
+    margin-top: 14px;
+    font-size: 14px;
+}
+
+.footer-mobile {
+    display: none;
+}
+
+
+/* ============================================
+   MOBILE — INDEX PAGE
+   ============================================ */
+
+@media (max-width: 900px) {
+
+    body {
+        font-size: 17px;
+        text-align: justify;
+    }
+
+    .page-wrapper {
+        display: block;
+        padding: 40px 20px;
+        min-height: auto;
+    }
+
+    .content-centered {
+        display: block;
+    }
+
+    .two-column {
+        flex-direction: column;
+        gap: 30px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .profile-photo {
+        width: 86%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    .right-col {
+        width: 100%;
+    }
+
+    .footer-desktop {
+        display: none;
+    }
+
+    .footer-mobile {
+        display: block;
+        font-size: 14px;
+        margin-top: 40px;
+    }
+}
+
+
+/* ============================================
+   RESEARCH PAGE — SINGLE COLUMN LAYOUT
+   ============================================ */
+
+.single-column {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+
+/* Section titles */
+.section-title {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+
+/* Paper Titles */
+.paper-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: black !important;
+}
+
+
+/* Coauthors */
+.coauthors {
+    font-style: italic;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+/* Coauthors + working paper link on same line */
+.coauthors.with-link {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    font-style: italic;
+}
+
+.coauthors.with-link .draft-label {
+    font-family: "Courier New", monospace;
+    color: #8A3A3A;
+    font-style: normal; /* keep authors italic, link normal */
+}
+
+.coauthors.with-link .draft-label:hover {
+    font-weight: 700;
+    color: #5f1c1c;
+}
+
+.coauthors.with-link .separator {
+    margin: 0 4px;
+}
+
+/* Draft, working paper, abstract toggle */
+.paper-controls {
+    margin-bottom: 14px;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.paper-controls a {
+    font-family: "Courier New", monospace;
+    font-size: 1rem;
+    color: #8A3A3A;
+}
+
+.paper-controls a:hover {
+    font-weight: 700;
+    color: #5f1c1c;
+}
+
+.draft-nolink {
+    font-family: "Courier New", monospace;
+    color: black;
+}
+
+.draft-nolink:hover {
+    font-weight: normal;
+    color: black;
+}
+
+.separator {
+    margin: 0 6px;
+    color: black;
+}
+
+.abstract-toggle {
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.abstract-toggle:hover {
+    font-weight: 700;
+}
+
+.abstract-arrow {
+    font-size: 0.75rem;
+}
+
+
+/* Abstract content */
+.abstract-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+    margin-bottom: 20px;
+}
+
+.abstract-content.open {
+    max-height: 900px;
+}
+
+
+/* ============================================
+   RESEARCH PAGE MOBILE
+   ============================================ */
+
+@media (max-width: 900px) {
+
+    .single-column {
+        max-width: 92%;
+        padding: 20px;
+    }
+
+    .paper-title {
+        font-size: 19px;
+    }
+
+    .coauthors {
+        font-size: 15px;
+    }
+
+    .paper-controls,
+    .paper-controls a,
+    .abstract-toggle {
+        font-size: 16px !important;
+    }
+
+    .abstract-content {
+        font-size: 16px;
+    }
+
+    br {
+        display: none;
+    }
+
+}
